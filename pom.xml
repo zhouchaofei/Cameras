@@ -29,6 +29,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- JNA 3.0.9 -->
+        <dependency>
+            <groupId>com.sun.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>3.0.9</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -60,7 +67,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.example.cameras.CamerasApplication</mainClass>
-                    <skip>true</skip>
+<!--                    <skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>
